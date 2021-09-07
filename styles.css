@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Table */
+table {
+  width: 100%;
+}
+
+th, td {
+  text-align: center;
+}
+
+table, th, td  {
+  border: solid 1px black;  
+}
+
+/* Navigation */
+ul {
+  list-style: none;
+}
