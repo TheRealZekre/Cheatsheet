@@ -18,3 +18,9 @@ table, th, td  {
 ul {
   list-style: none;
 }
+
+/* Footer */
+
+p {
+  text-align: center;
+}
