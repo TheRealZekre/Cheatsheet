@@ -18,6 +18,11 @@ table, th, td  {
 ul {
   list-style: none;
 }
+a:hover {
+  color: white;
+  background-color: black;
+  font-size: 19px;
+  }
 
 /* Footer */
 
