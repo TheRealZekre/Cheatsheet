@@ -1,9 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
+/*HTML*/
+html {
+  background-color: #bbdbf7;
+  text-align: center;
+}
+
+
+
 
 /* Table */
 table {
-  width: 100%;
+  width: 50%;
 }
 
 th, td {
@@ -11,18 +19,36 @@ th, td {
 }
 
 table, th, td  {
-  border: solid 1px black;  
+  border: solid 5px rgb(10, 209, 193);
+  border-collapse: collapse  
 }
 
 /* Navigation */
 ul {
-  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /*The overflow property controls what happens 
+  to content that is too big to fit into an area.*/
+  background-color: #333;
 }
+li {
+  float:left;
+  
+}
+li a {
+  display: block;
+  padding: 14px 16px;
+  color:white;
+  text-decoration: none;
+  text-align: center;
+}
+
 a:hover {
-  color: white;
-  background-color: black;
-  font-size: 19px;
+    background-color: #111;
+  
   }
+
 
 /* Footer */
 
