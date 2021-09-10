@@ -2,7 +2,7 @@
 /* CSS Document */
 /*HTML and BODY*/
 html {
-  background-color: rgb(25, 107, 175);
+  background-color: #fcde67;
   text-align: center;
   color:
 }
@@ -15,6 +15,7 @@ body {
 /* Table */
 table {
   width: 50%;
+  
 }
 
 th, td {
@@ -22,8 +23,8 @@ th, td {
 }
 
 table, th, td  {
-  border: solid 5px rgb(10, 209, 193);
-  border-collapse: collapse  
+  border: solid 5px #5bccf6;
+  border-collapse: collapse;   
 }
 
 /* Navigation */
@@ -39,7 +40,7 @@ ul {
   padding: 0;
   overflow: hidden; /*The overflow property controls what happens 
   to content that is too big to fit into an area.*/
-  background-color: #333;
+  background-color:#5bccf6;
   
 }
 li {
@@ -49,13 +50,13 @@ li {
 li a {
   display: block;
   padding: 14px 16px;
-  color:white;
+  color:#030e12;
   text-decoration: none;
   text-align: center;
 }
 
 a:hover {
-    background-color: #111;
+    background-color: #fcde67;
   
   }
 
