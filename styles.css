@@ -1,13 +1,15 @@
 @charset "utf-8";
 /* CSS Document */
-/*HTML*/
+/*HTML and BODY*/
 html {
   background-color: rgb(25, 107, 175);
   text-align: center;
   color:
 }
 
-
+body {
+   margin: 0px;
+}
 
 
 /* Table */
@@ -25,6 +27,12 @@ table, th, td  {
 }
 
 /* Navigation */
+#nav {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -32,6 +40,7 @@ ul {
   overflow: hidden; /*The overflow property controls what happens 
   to content that is too big to fit into an area.*/
   background-color: #333;
+  
 }
 li {
   float:left;
