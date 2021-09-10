@@ -2,7 +2,7 @@
 /* CSS Document */
 /*HTML and BODY*/
 html {
-  background-color: #fcde67;
+  background-color: #404E4D;
   text-align: center;
   color:
 }
@@ -11,21 +11,54 @@ body {
    margin: 0px;
 }
 
+/* Header section H1 */
+.h1 {
+  margin-top: 100px;;
+}
 
 /* Table */
-table {
-  width: 50%;
+.table-wrapper {
+  margin: 10px 70px 70px;
+  box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+}
+
+.table {
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: white;
   
 }
 
-th, td {
+.table th, .table td {
   text-align: center;
+  padding: 8px;
 }
 
-table, th, td  {
-  border: solid 5px #5bccf6;
-  border-collapse: collapse;   
+.table td {
+  border-right: 1px solid #f8f8f8;
+  font-size: 12px;
 }
+
+.table thead th {
+  color: #ffffff;
+  background: #4fc3a1;
+}
+
+.table thead th:nth-child(odd) {
+  color: #ffffff;
+  background: #324960;
+}
+
+.table tr:nth-child(even){
+  background: #f8f8f8;
+}
+
 
 /* Navigation */
 #nav {
